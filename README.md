@@ -48,6 +48,7 @@ A Windows console-based bookstore inventory and sales management system built in
 ```bash
 gcc main.c -o bookstore
 ./bookstore
+```
 
 ---
 
