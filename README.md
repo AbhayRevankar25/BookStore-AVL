@@ -49,4 +49,30 @@ A Windows console-based bookstore inventory and sales management system built in
 gcc main.c -o bookstore
 ./bookstore
 
+---
+
+## 📂 Sample Book Inventory (bookList.csv)
+
+The application reads from and writes to a CSV file named `bookList.csv` which stores the book inventory using the following format:
+
+| BookId | BookName      | Author       | Quantity | Cost (₹) | Sell (₹) | Shelf No |
+|--------|---------------|--------------|----------|----------|----------|-----------|
+| 101    | AtomicHabits  | JamesClear   | 20       | 150      | 200      | 3         |
+| 102    | ZeroToOne     | PeterThiel   | 15       | 120      | 180      | 4         |
+
+Each row contains:
+- A unique `BookId`
+- Book name and author
+- Number of copies in stock (`Quantity`)
+- `Cost` (internal purchase price)
+- `Sell` (customer price)
+- `Shelf No` for physical arrangement
+
+Ensure this file exists in the same directory as the executable for the app to load properly.
+
+You can add more entries manually or through the Admin mode in the program.
+
+---
+
+
 
